@@ -2,7 +2,9 @@ package com.example.profilsekolah;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ViewFlipper;
@@ -28,5 +30,20 @@ public class galeriActivity extends AppCompatActivity {
        viewFlipper.setFlipInterval(5000);
        viewFlipper.startFlipping();
 
+    }
+
+    public void albumpmr(View view) {
+        Intent intent = new Intent(galeriActivity.this, AlbumpmrActivity.class);
+        startActivity(intent);
+    }
+
+    public void albumhutri(View view) {
+        Intent intent = new Intent(galeriActivity.this, AlbumhutriActivity.class);
+        startActivity(intent);
+    }
+
+    public void albumpramuka(View view) {
+        Intent intent = new Intent(galeriActivity.this, AlbumpramukaActivity.class);
+        startActivity(intent);
     }
 }
