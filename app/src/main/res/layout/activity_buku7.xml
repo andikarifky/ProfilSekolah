@@ -58,11 +58,11 @@
                         android:layout_height="match_parent"
                         android:orientation="horizontal">
 <!--                       Pembuka Buku 1-->
-                        <LinearLayout
+f                        <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
-                            android:background="dfdfdf"
+                            android:background="@color/white"
                             android:orientation="vertical">
 
                             <ImageView
@@ -85,12 +85,12 @@
                                 android:layout_marginLeft="3dp"
                                 android:layout_marginRight="3dp"
                                 android:autoLink="web"
-                                android:background="#00838f"
+                                android:background="@color/white"
                                 android:clickable="true"
                                 android:cursorVisible="true"
                                 android:linksClickable="true"
                                 android:onClick="mtk7"
-                                android:textColor="@color/white"
+                                android:textColor="@color/black"
                                 android:text="BACA"/>
 
                         </LinearLayout>
@@ -101,7 +101,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
-                            android:background="dfdfdf"
+                            android:background="@color/white"
                             android:orientation="vertical">
 
                             <ImageView
@@ -110,13 +110,13 @@
                                 android:layout_weight="1"
                                 android:adjustViewBounds="true"
                                 android:cropToPadding="true"
-                                android:src="@drawable/mtk8"/>
+                                android:src="@drawable/mtk8" />
 
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
-                                android:text="MATEMATIKA"/>
+                                android:text="BHS INDONESIA"/>
 
                             <Button
                                 android:layout_width="match_parent"
@@ -124,12 +124,12 @@
                                 android:layout_marginLeft="3dp"
                                 android:layout_marginRight="3dp"
                                 android:autoLink="web"
-                                android:background="#00838f"
+                                android:background="@color/white"
                                 android:clickable="true"
                                 android:cursorVisible="true"
                                 android:linksClickable="true"
-                                android:onClick="mtk7"
-                                android:textColor="@color/white"
+                                android:onClick="bi7"
+                                android:textColor="@color/black"
                                 android:text="BACA"/>
 
                         </LinearLayout>
@@ -140,7 +140,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
-                            android:background="dfdfdf"
+                            android:background="@color/white"
                             android:orientation="vertical">
 
                             <ImageView
@@ -155,7 +155,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
-                                android:text="MATEMATIKA"/>
+                                android:text="BHS INGGRIS"/>
 
                             <Button
                                 android:layout_width="match_parent"
@@ -163,12 +163,12 @@
                                 android:layout_marginLeft="3dp"
                                 android:layout_marginRight="3dp"
                                 android:autoLink="web"
-                                android:background="#00838f"
+                                android:background="@color/white"
                                 android:clickable="true"
                                 android:cursorVisible="true"
                                 android:linksClickable="true"
-                                android:onClick="mtk7"
-                                android:textColor="@color/white"
+                                android:onClick="bing7"
+                                android:textColor="@color/black"
                                 android:text="BACA"/>
 
                         </LinearLayout>
@@ -179,7 +179,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
-                            android:background="dfdfdf"
+                            android:background="@color/white"
                             android:orientation="vertical">
 
                             <ImageView
@@ -202,12 +202,11 @@
                                 android:layout_marginLeft="3dp"
                                 android:layout_marginRight="3dp"
                                 android:autoLink="web"
-                                android:background="#00838f"
+                                android:background="@color/white"
                                 android:clickable="true"
                                 android:cursorVisible="true"
                                 android:linksClickable="true"
-                                android:onClick="mtk7"
-                                android:textColor="@color/white"
+                                android:textColor="@color/black"
                                 android:text="BACA"/>
 
                         </LinearLayout>
@@ -217,12 +216,14 @@
             </LinearLayout>
 <!--            Penutup Baris 1-->
 
-            <!--           Pembuka Baris 1-->
+            <!--            BARIS 1-->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:orientation="vertical"
                 android:padding="15dp">
+
+
 
                 <HorizontalScrollView
                     android:layout_width="wrap_content"
@@ -232,12 +233,13 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:orientation="horizontal">
-                        <!--                       Pembuka Buku 1-->
+
+                        <!--                        BUKU 1-->
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
-                            android:background="dfdfdf"
+                            android:background="#dfdfdf"
                             android:orientation="vertical">
 
                             <ImageView
@@ -246,13 +248,13 @@
                                 android:layout_weight="1"
                                 android:adjustViewBounds="true"
                                 android:cropToPadding="true"
-                                android:src="@drawable/mtk8"/>
+                                android:src="@drawable/mtk8" />
 
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
-                                android:text="MATEMATIKA"/>
+                                android:text="MATEMATIKA" />
 
                             <Button
                                 android:layout_width="match_parent"
@@ -260,23 +262,23 @@
                                 android:layout_marginLeft="3dp"
                                 android:layout_marginRight="3dp"
                                 android:autoLink="web"
-                                android:background="#00838f"
+                                android:background="@color/white"
                                 android:clickable="true"
                                 android:cursorVisible="true"
                                 android:linksClickable="true"
                                 android:onClick="mtk7"
-                                android:textColor="@color/white"
-                                android:text="BACA"/>
+                                android:text="BACA"
+                                android:textColor="@color/white" />
 
                         </LinearLayout>
-                        <!--                       Penutup Buku 1-->
+                        <!--                        PENUTUP BUKU 1-->
 
-                        <!--                       Pembuka Buku 2-->
+                        <!--                        BUKU 2-->
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
-                            android:background="dfdfdf"
+                            android:background="#dfdfdf"
                             android:orientation="vertical">
 
                             <ImageView
@@ -285,13 +287,13 @@
                                 android:layout_weight="1"
                                 android:adjustViewBounds="true"
                                 android:cropToPadding="true"
-                                android:src="@drawable/mtk8"/>
+                                android:src="@drawable/mtk8" />
 
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
-                                android:text="MATEMATIKA"/>
+                                android:text="MATEMATIKA" />
 
                             <Button
                                 android:layout_width="match_parent"
@@ -299,23 +301,23 @@
                                 android:layout_marginLeft="3dp"
                                 android:layout_marginRight="3dp"
                                 android:autoLink="web"
-                                android:background="#00838f"
+                                android:background="@color/white"
                                 android:clickable="true"
                                 android:cursorVisible="true"
                                 android:linksClickable="true"
                                 android:onClick="mtk7"
-                                android:textColor="@color/white"
-                                android:text="BACA"/>
+                                android:text="BACA"
+                                android:textColor="@color/white" />
 
                         </LinearLayout>
-                        <!--                       Penutup Buku 2-->
+                        <!--                        PENUTUP BUKU 2-->
 
-                        <!--                       Pembuka Buku 3-->
+                        <!--                        BUKU 3-->
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
-                            android:background="dfdfdf"
+                            android:background="#dfdfdf"
                             android:orientation="vertical">
 
                             <ImageView
@@ -324,13 +326,13 @@
                                 android:layout_weight="1"
                                 android:adjustViewBounds="true"
                                 android:cropToPadding="true"
-                                android:src="@drawable/mtk8"/>
+                                android:src="@drawable/mtk8" />
 
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
-                                android:text="MATEMATIKA"/>
+                                android:text="MATEMATIKA" />
 
                             <Button
                                 android:layout_width="match_parent"
@@ -338,23 +340,23 @@
                                 android:layout_marginLeft="3dp"
                                 android:layout_marginRight="3dp"
                                 android:autoLink="web"
-                                android:background="#00838f"
+                                android:background="@color/white"
                                 android:clickable="true"
                                 android:cursorVisible="true"
                                 android:linksClickable="true"
                                 android:onClick="mtk7"
-                                android:textColor="@color/white"
-                                android:text="BACA"/>
+                                android:text="BACA"
+                                android:textColor="@color/white" />
 
                         </LinearLayout>
-                        <!--                       Penutup Buku 3-->
+                        <!--                        PENUTUP BUKU 3-->
 
-                        <!--                       Pembuka Buku 4-->
+                        <!--                        BUKU 4-->
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
-                            android:background="dfdfdf"
+                            android:background="#dfdfdf"
                             android:orientation="vertical">
 
                             <ImageView
@@ -363,13 +365,13 @@
                                 android:layout_weight="1"
                                 android:adjustViewBounds="true"
                                 android:cropToPadding="true"
-                                android:src="@drawable/mtk8"/>
+                                android:src="@drawable/mtk8" />
 
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
-                                android:text="MATEMATIKA"/>
+                                android:text="MATEMATIKA" />
 
                             <Button
                                 android:layout_width="match_parent"
@@ -377,20 +379,20 @@
                                 android:layout_marginLeft="3dp"
                                 android:layout_marginRight="3dp"
                                 android:autoLink="web"
-                                android:background="#00838f"
+                                android:background="@color/white"
                                 android:clickable="true"
                                 android:cursorVisible="true"
                                 android:linksClickable="true"
                                 android:onClick="mtk7"
-                                android:textColor="@color/white"
-                                android:text="BACA"/>
+                                android:text="BACA"
+                                android:textColor="@color/white" />
 
                         </LinearLayout>
-                        <!--                       Penutup Buku 4-->
+                        <!--                        PENUTUP BUKU 4-->
                     </LinearLayout>
                 </HorizontalScrollView>
             </LinearLayout>
-            <!--            Penutup Baris 1-->
+            <!--            PENUTUP BARIS 1-->
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>
